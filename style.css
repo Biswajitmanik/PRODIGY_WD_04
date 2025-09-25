@@ -1,0 +1,58 @@
+/* General page setup */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f9;
+}
+
+/* Stopwatch container */
+#stopwatch {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Timer display */
+.timerDisplay {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons container */
+.buttons {
+    text-align: center;
+}
+
+/* Buttons */
+.btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Reset button different color */
+.btn:nth-child(3) {
+    background: #dc3545;
+}
+
+.btn:nth-child(3):hover {
+    background: #a71d2a;
+}
